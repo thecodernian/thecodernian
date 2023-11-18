@@ -1,13 +1,13 @@
 #define LEDV 9;
 void setup()
 {
-  pinMode(LEDR,OUTPUT);
+  pinMode(LEDV,OUTPUT);
   Serial.begin(115200);
 }
 void loop()
 {
-  digitalWrite(LEDR,HIGH);
+  digitalWrite(LEDV,HIGH);
   delay(3000);
-  digitalWrite(LEDR,LOW);
+  digitalWrite(LEDV,LOW);
   delay(40000);
 }
